@@ -11,15 +11,15 @@
 
 # 使用したもの
 
-*　OMRON TYPE GLS-M1(磁気センサ)  :  1組
-*　抵抗1000Ω(誤差±５%)   : １つ
-*　Raspberry Pi Camera V2.1  :  １つ
-*　ブレッドボード  :  1つ
-*　ワニーワニ導線  :  2本
-*　導線 : 6本
-*　LINE MESSAGING API : LINE BOT開発用API
-*　Google Drive API : Google Driveの操作用API
-*　heroku: Cloud(PaaS)サービス
+* OMRON TYPE GLS-M1(磁気センサ)  :  1組
+* 抵抗1000Ω(誤差±５%)   : １つ
+* Raspberry Pi Camera V2.1  :  １つ
+* ブレッドボード  :  1つ
+* ワニーワニ導線  :  2本
+* 導線 : 6本
+* LINE MESSAGING API : LINE BOT開発用API
+* Google Drive API : Google Driveの操作用API
+* heroku: Cloud(PaaS)サービス
 
 # ライブラリ
 * Flask(1.0.2) : webサーバー用
@@ -29,17 +29,17 @@
 * requests(2.21.0) : httpの通信用のライブラリ
 
 # 実際の動作
-* RPi側ログ
+** RPi側ログ **
 ![ログ1](https://user-images.githubusercontent.com/112361650/226249508-2b07c385-c020-41ba-b88a-197d049d5eb1.png)
 ![ログ2](https://user-images.githubusercontent.com/112361650/226249514-441b5383-670e-4ac5-a703-f4becfd3a102.png)
 
-* サーバー側ログ
+** サーバー側ログ **
+![ログ3](https://user-images.githubusercontent.com/112361650/226251427-fdb2e8cb-34ed-481f-94e0-3cf38fae80b4.png)
 
-
-* 通知
+** 通知 **
 ![通知](https://user-images.githubusercontent.com/112361650/226249525-2c668cef-d834-4dbc-ad4a-8d58fab21a31.png)
 
-* コマンド
+** コマンド **
 ![コマンド](https://user-images.githubusercontent.com/112361650/226249468-88d33b7d-28d1-4b23-baf7-ddbf344c4760.jpg)
 　　* count 	: ドアが開いた総回数取得
 　　* date		: ドアが開いた日時のリストと回数の取得
@@ -48,6 +48,6 @@
 　　* それ以外 : ヘルプ
   
   
-*取得
+** 取得 **
 ![取得](https://user-images.githubusercontent.com/112361650/226249520-7e8a84e7-d31c-4dd5-ba82-fa23fd542da7.jpg)
 
